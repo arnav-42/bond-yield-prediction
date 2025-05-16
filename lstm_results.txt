@@ -1,0 +1,27 @@
+Dataset shape after dropping NaN values: (8506, 14)
+Epoch 0, Loss: 0.0941
+Epoch 10, Loss: 0.0073
+Epoch 20, Loss: 0.0064
+Epoch 30, Loss: 0.0058
+Epoch 40, Loss: 0.0056
+Epoch 50, Loss: 0.0055
+Epoch 60, Loss: 0.0055
+Epoch 70, Loss: 0.0054
+Epoch 80, Loss: 0.0053
+Epoch 90, Loss: 0.0053
+Predictions for the next 8 days: [3.89503168 3.90849974 3.92195759 3.93539705 3.94879564 3.96215848
+ 3.97550548 3.98886423]
+
+--- Final Model Statistics ---
+Final training loss (MAE): 0.005368381750916964
+Test MAE: 0.0636
+Test MSE: 0.0064
+Test RMSE: 0.0799
+Test R²: 0.9276
+
+Sample of last 5 predictions vs actual:
+Actual: 3.9000, Predicted: 3.9267, Error: 0.0267
+Actual: 3.8900, Predicted: 3.9147, Error: 0.0247
+Actual: 3.7900, Predicted: 3.8804, Error: 0.0904
+Actual: 3.8400, Predicted: 3.8139, Error: 0.0261
+Actual: 3.8800, Predicted: 3.5956, Error: 0.2844
